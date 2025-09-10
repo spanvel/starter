@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "spanvel/starter",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "The Laravel starter kit for Spanvel.",
     "keywords": [
         "laravel",
         "framework"
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
+            "App\\": "apps/app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
